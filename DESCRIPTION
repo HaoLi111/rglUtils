@@ -1,0 +1,16 @@
+Package: rglUtils
+Type: Package
+Title: R object Utilizations with OpenGL
+Version: 0.1.0
+Author: Hao Li
+Maintainer: Hao Li <lhrcplanes@qq.com>
+Description: Graphing functions directly taking R objects.
+    S3 method is used to identify different types of objects that are
+    taken in, namely data frame, matrix, array, character, expression
+    and function.
+License: GPL V3
+Encoding: UTF-8
+LazyData: false
+Depends: rgl,plot3D,plot3Drgl
+Suggests: rColorBrewer
+Imports: misc3d
